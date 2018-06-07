@@ -1,0 +1,12 @@
+Source: ros-ardent-object-msgs
+Section: misc
+Priority: extra
+Maintainer: Xiaojun Huang <xiaojun.huang@intel.com>
+Build-Depends: debhelper (>= 9.0.0), ros-ardent-ament-cmake, ros-ardent-rosidl-default-generators, ros-ardent-sensor-msgs, ros-ardent-std-msgs, ros-ardent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-ardent-object-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-ardent-rosidl-default-runtime, ros-ardent-sensor-msgs, ros-ardent-std-msgs, ros-ardent-ros-workspace
+Description: This package defines messages for NCS inference
